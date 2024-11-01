@@ -1,6 +1,6 @@
  module.exports = {
   config: {
-    name: "bayjid",
+    name: "Tiyash",
     aliases: ["lm10"],
     version: "1.0",
     author: "Otineyyyy your dadddy👾😉",
@@ -13,12 +13,12 @@
   },
 
   onStart: async function ({ message }) {
-   var link = [ "https://i.imgur.com/LlYIeQ1.mp4",
+   var link = [ "https://i.imgur.com/Vc9xRsF.jpeg",
 ]
 
 let img = link[Math.floor(Math.random()*link.length)]
 message.send({
-  body: '「 MOHAMMAD BAYJID\n\n𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n𝗠𝗗 𝗝𝗨𝗕𝗔𝗘𝗗 𝗔𝗛𝗠𝗘𝗗 𝗝𝗢𝗬」',attachment: await global.utils.getStreamFromURL(img)
+  body: '「 ❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:)\n\n𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:)」',attachment: await global.utils.getStreamFromURL(img)
 })
 }
      }
