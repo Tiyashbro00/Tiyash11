@@ -20,8 +20,8 @@ module.exports = {
 ➥. help [number of page] -> see commands
 ➥. sim [message] -> talk to bot
 ➥. callad [message] -> report any problem encountered
-➥. help [command] -> information and usage of command\n\n𝗛𝗮𝘃𝗲 𝗳𝘂𝗻 𝘂𝘀𝗶𝗻𝗴 𝗶𝘁!❤️\n𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𝗠𝗗 𝗝𝗨𝗕𝗔𝗘𝗗 𝗔𝗛𝗠𝗘𝗗 𝗝𝗢𝗬\n𝗪𝗛𝗔𝗧𝗦 𝗔𝗣𝗣: 01709045888\n\n𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/profile.php?id=100001741442385`,
- attachment: await global.utils.getStreamFromURL("https://i.imgur.com/82re01F.jpeg")
+➥. help [command] -> information and usage of command\n\n𝗛𝗮𝘃𝗲 𝗳𝘂𝗻 𝘂𝘀𝗶𝗻𝗴 𝗶𝘁!❤️\n𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 ❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:)\n𝗪𝗛𝗔𝗧𝗦 𝗔𝗣𝗣: 9710569087021\n\n𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/profile.php?id=100013494638409`,
+ attachment: await global.utils.getStreamFromURL("https://i.imgur.com/2XDNIie.jpeg")
  });
  }
  }
