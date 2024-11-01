@@ -38,7 +38,7 @@ else if(mention.length == 1){
 		const img = await new DIG.Kiss().getImage(avatarURL1, avatarURL2);
 		const pathSave = `${__dirname}/tmp/${one}_${two}kiss.png`;
 		fs.writeFileSync(pathSave, Buffer.from(img));
-		const content = "𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n\n𝗠𝗗 𝗝𝗨𝗕𝗔𝗘𝗗 𝗔𝗛𝗠𝗘𝗗 𝗝𝗢𝗬"
+		const content = "𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n\❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:)"
 		message.reply({
 			body: `${(content || "Bópppp 😵‍💫😵")}`,
 			attachment: fs.createReadStream(pathSave)
