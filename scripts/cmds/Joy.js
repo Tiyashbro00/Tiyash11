@@ -12,7 +12,7 @@
 
  onStart: async function(){}, 
  onChat: async function({ event, message, getLang }) {
- if (event.body && event.body.toLowerCase() === "@❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:) ;P") {
+ if (event.body && event.body.toLowerCase() === "joy") {
  return message.reply({
  body: "তিয়াশ বস কাজে বিজি আছেন","//
 
