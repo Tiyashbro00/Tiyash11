@@ -1,6 +1,6 @@
  module.exports = {
  config: {
-	 name: "Joy",
+	 name: "@❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:) ;P",
 	 version: "1.0",
 	 author: "AceGun",
 	 countDown: 5,
@@ -12,9 +12,9 @@
 
  onStart: async function(){}, 
  onChat: async function({ event, message, getLang }) {
- if (event.body && event.body.toLowerCase() === "Joy") {
+ if (event.body && event.body.toLowerCase() === "@❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:) ;P") {
  return message.reply({
- body: "জয় বস কাজে বিজি আছেন",
+ body: "তিয়াশ বস কাজে বিজি আছেন",
  attachment: await global.utils.getStreamFromURL("https://i.imgur.com/XXANp1W.jpeg")
  });
  }
