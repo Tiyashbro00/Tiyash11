@@ -24,7 +24,7 @@ module.exports = {
  if (mention.length == 0) return message.reply("Please mention someone");
  else if (mention.length == 1) {
  const one = event.senderID, two = mention[0];
- bal(one, two).then(ptth => { message.reply({ body: "「𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n𝗠𝗗 𝗝𝗨𝗕𝗔𝗘𝗗 𝗔𝗛𝗠𝗘𝗗 𝗝𝗢𝗬 」", attachment: fs.createReadStream(ptth) }) })
+ bal(one, two).then(ptth => { message.reply({ body: "「𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:) ;P ㅤ 」", attachment: fs.createReadStream(ptth) }) })
  } else {
  const one = mention[1], two = mention[0];
  bal(one, two).then(ptth => { message.reply({ body: "", attachment: fs.createReadStream(ptth) }) })
