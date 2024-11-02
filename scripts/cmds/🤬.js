@@ -12,7 +12,7 @@ module.exports = {
 
  onStart: async function(){}, 
  onChat: async function({ event, message, getLang }) {
- if (event.body && event.body.toLowerCase() === "🤬") {
+ if (event.body && event.body.toLowerCase() === "😡") {
  return message.reply({
  body: "     「𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥\n❨𝐂𝐄𝐎❩তি্ঁয়া্ঁশ্ঁ❩⸙___❼❷⓿⸙𓅓 ;* 3:) ;P ㅤ」",
  attachment: await global.utils.getStreamFromURL("https://drive.google.com/uc?id=1y7X8okcAe__HNeKZuTbAk-B7aWO7VKkw")
