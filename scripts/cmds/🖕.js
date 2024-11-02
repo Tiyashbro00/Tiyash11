@@ -12,7 +12,7 @@ module.exports = {
   },
   onStart: async function(){},
   onChat: async function({ event, message, getLang }) {
-    if (event.body && event.body.toLowerCase() === "🥵") {
+    if (event.body && event.body.toLowerCase() === "🖕") {
       return message.reply({
         body: "হাসতে হাসতে তোর মার ভুদার মধ্যে ঢুকে গেলাম:-)🙄🤕🌻💦",
         attachment: fs.createReadStream("joy/nunu.mp3"),
